@@ -61,7 +61,7 @@ button:hover {
     font-weight: 700;
     background-color: #8699d3;
     box-shadow: 0 0 100px 10px rgb(45, 42, 92);
-    animation:zoom-in-out 1s linear 0s infinite normal;
+    animation:rotate 1s ease 0s 1 normal;
 }
 
 .right {
@@ -80,7 +80,7 @@ img {
 }
 
 img:hover {
-    animation:rotate 1s ease 0s 1 normal;
+    animation:zoom-in-out 1s linear 0s infinite normal;
 }
 
 @media all and (max-width:500px) {
@@ -106,6 +106,6 @@ img:hover {
 
 @keyframes zoom-in-out {
     0%{ -ms-transform: scale(1); transform: scale(1); }
-    50%{ -ms-transform: scale(1.2); transform: scale(1.2); }
+    50%{ -ms-transform: scale(1.1); transform: scale(1.1); }
     100%{ -ms-transform: scale(1); transform: scale(1); }
     }
